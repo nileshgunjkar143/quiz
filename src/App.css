@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+#main{
+
+  background-color:  rgb(24, 36, 36);
+}
+.see{
+  height: 35em;
+  width: 35em;
+  border: 1.5px solid rgb(197, 62, 62);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.pos{ position: absolute;
+  top: 20%;
+  left: 70%;}
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +29,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
